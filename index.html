@@ -1,32 +1,42 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is My Midterm Lab Exam</title>
+    <style>
 
-    <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a basic HTML structure for a website.</p>
-        </section>
-
-        <section>
-            <h2>Content Section</h2>
-            <p>You can add more sections and content as needed.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
-
-    <img src="logo.png" alt="Website Logo"> <!-- Missing closing tag -->
-</body>
+      nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      nav li {
+        margin-right: 20px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+      nav a:hover {
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+  </body>
 </html>
